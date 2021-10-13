@@ -3,19 +3,20 @@ const name = "Matias";
 const age = 30;
 const gender = "M";
 const nationality = "URU";
+const stuff = "some";
 
 // An objects
 
 const product = {
-  category: "Electronics",
+  category: "sports",
   price: 30,
-  name: "TV",
+  name: "ball",
   description: "akjsbdkjabdkbaskjdbask",
   reviews: "...",
 };
 
 console.log("name", product.name);
-console.log("name", product["name"]);
+console.log("type", product["name"]);
 
 // console.log("A student", student);
 
