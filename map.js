@@ -1,5 +1,7 @@
 const patients = require("./patients");
 
+console.log("Hello trying out git");
+
 // > 50 "senior" "young"
 
 const mappedPatients = patients.map(patient => {
@@ -21,15 +23,17 @@ const mappedPatients = patients.map(patient => {
 
 // patient data with no personal info
 
-const noPersonalInfoList = patients.map(patient => {
+const noPersonalInfoList = patients.map(p => {
   return {
-    id: patient.id,
-    gender: patient.gender,
-    height: patient.height,
-    weight: patient.weight,
-    dailyExercise: patient.dailyExercise,
+    id: p.id,
+    gender: p.gender,
+    height: p.height,
+    weight: p.weight,
+    dailyExercise: p.dailyExercise,
   };
 });
+
+console.log("This is matias");
 
 const copyOfPatients = patients.map(patient => patient);
 
